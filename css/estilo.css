@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+
+a{
+    background: red;
+    color: white;
+    border: 2px solid black;
+    padding-top:  15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+a:hover{
+    background: white;
+    color: red;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    margin-top: 80px;
+    
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    width: 400px;
+}

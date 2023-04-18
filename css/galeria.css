@@ -1,0 +1,65 @@
+*{
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    background-color: red;
+    padding:3vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 2vw;
+}
+
+a{
+    background-color: rgb(228, 147, 159);
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo1{
+    background-color: black;
+    padding: 5vh;
+}
+
+.secciones{
+    background-color: red;
+    padding: 5vh;
+}
+
+.primeraSeccion{
+    padding-bottom: 75px;
+}
+
+.segundaSeccion{
+    padding-bottom: 75px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+button{
+    color: black;
+}

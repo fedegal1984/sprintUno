@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+body{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+h1{
+    background-color: rgb(87, 87, 248);
+    color: white;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+nav{
+    text-align: end;
+    background-color: rgba(1, 1, 83, 0.836);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    background-color: #9fd4f7;
+    color: white;
+}

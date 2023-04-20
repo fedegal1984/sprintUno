@@ -26,8 +26,10 @@ a{
     color: white;
     text-decoration: none;
 }
-
 main{
+    display: flex;
+}
+.containerIzq{
     display: flex;
     flex-direction: column;
     border: 18px;
@@ -52,15 +54,12 @@ main{
 h3 h2{
     font-weight: bold;
 }
+
 aside{
-    position: fixed;
-    top: 115px;
-    right: 180px;
+    margin-left: 10px;
     width: 13vw;
     height: 40vh;
     background-color: lightslategray;
-    margin-right: 2vw;
-
 }
 
 footer{

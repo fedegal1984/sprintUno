@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    color: white;
 }
 
 
@@ -12,19 +13,19 @@ body{
 
 .celular{
     text-align: center;
-    color: white;
     margin: 3vh 40vw 0 40vw;
-    padding-bottom: 75vh;
+    padding-bottom: 6vh;
     background-image: linear-gradient(to right, rgb(226, 57, 122), rgb(116, 19, 72));
     border-radius: 25px;
     border: solid black 2px;
 }
 
-.video-container {
-
-}
 
 video {
+    width: 90%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 2px 6px 5px white;
 
 }
 

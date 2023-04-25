@@ -19,11 +19,13 @@ header{
 nav{
     background-color: rgb(11, 11, 73);
     display: flex;
-    justify-content:flex-end;
-    align-items: center;
     gap: 50px;
-    padding: 22px 40px 22px 0;
+    height: 60px;
+    justify-content:flex-end;
+    align-items: center; 
     margin: 15px 0;
+    padding-right: 40px;
+
 }
 
 nav a{
@@ -57,6 +59,8 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
     border: solid 20px rgb(85, 85, 85);
     border-top: 1px;
     padding: 20px;
